@@ -1,31 +1,45 @@
 body{
     font-family: 'Poppins', sans-serif;
+   
 }
 h1{
     font-size: 60px;
+    border-left: 3px solid;
+    border-image: linear-gradient(cyan); 
+    border-image-slice: 1;
+
 
 }
 h2{
-    font-size: 50px;
+    font-size: 55px;
     font-style: Bold;
-    text-align:right;
+    text-align: center;
+    
 }
 h3{
-    font-size: 20px;
-    text-align: center;
+    font-size: 45px;
+}
+h4{
+    font-size: 30px;
+    text-align:center;
+}
+h5{
+    font-style:bold ;
+    font-size: 28px;
 }
 .orange-color{
     color: orange;
 }
 .top-part{
     display: flex;
+    margin-bottom: 160px;
 }
 .half-width{
-    width: 50%;
-    padding-left: 10%;
+    width: 40%;
+    padding-left: 12%;
 }
 .half-width img{
-    width: 75%;
+    width: 77%;
 }
 .link-button{
     text-decoration: none;
@@ -40,6 +54,10 @@ h3{
 }
 .flexible-container{
     display: flex;
+
+}
+.mission-area{
+    margin-bottom: 160px;
 
 }
 .mission-item{
@@ -60,4 +78,39 @@ h3{
 }
 #goal-developer{
     background-color: lightyellow;
+}
+.develop-part{
+    display: flex;
+    margin-bottom: 100px;
+}
+.last-part{
+    display: flex;
+    margin-bottom: 140px
+
+}
+.optional-part{
+    width: 40% ;
+    margin-left: 23%;
+    margin-right: 16%;
+    padding-left: 10%;
+   
+    box-shadow: 20px 20px 40px grey;
+    margin-bottom: 140px
+}
+#optional-item{
+    background-color:lavenderblush;
+}
+
+.footer-part{
+    text-align: center;
+    background-color:indigo;
+}
+.white-color{
+    color: whitesmoke;
+}
+.red-color{
+    color:tomato
+}
+.color-part{
+    color: white;
 }
