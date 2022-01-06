@@ -6,14 +6,18 @@ h1{
 
 }
 h2{
-    font-size:50px:
-    
-   
+    font-size: 50px;
+    font-style: Bold;
+    text-align:right;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
 }
 .orange-color{
     color: orange;
 }
-section{
+.top-part{
     display: flex;
 }
 .half-width{
@@ -31,5 +35,29 @@ section{
     padding: 10px 30px;
     border-radius: 55px;
 }
+.yellow-color{
+    color:orangered;
+}
+.flexible-container{
+    display: flex;
 
+}
+.mission-item{
+    width: 30%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-shadow: 20px 20px 40px gray;
 
+    
+}
+#mission-developer{
+    background-color: lightcyan;
+}
+#vission-developer{
+    background-color:lightskyblue;
+}
+#goal-developer{
+    background-color: lightyellow;
+}
